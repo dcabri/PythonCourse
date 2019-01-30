@@ -59,6 +59,33 @@ str="123"
 for i in range(len(str)) :
     print(i)
 
+import numpy
+
+matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+]
+
+# lets create a python list
+
+# create a numpy array from that list:
+arr = numpy.array(matrix)
+
+# now we can easily use numpy's multi-dim slicing:
+# print from every row (:) element with index 1
+print(arr[:,1])
+
+# [0][2]
+# [1][1]
+# [2][0]
+res=0
+n=len(matrix)
+for i in range(n):
+    res+=matrix[i][n-i-1]
+    pos+=1
+
+print(f"sum of res is {res}")
 
 
 
