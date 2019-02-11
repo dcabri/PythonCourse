@@ -80,6 +80,7 @@ print(arr[:,1])
 # [1][1]
 # [2][0]
 res=0
+pos=0
 n=len(matrix)
 for i in range(n):
     res+=matrix[i][n-i-1]

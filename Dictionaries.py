@@ -1,3 +1,42 @@
+
+#Set
+#Dictionary
+# 
+# list:
+fruits = ["apple", "banana", "strawberry", "banana", "orange"]
+# tupple:
+point3d = (4, 0, 3)
+# range:
+digits = range(0,10)
+# string:
+user_name="ada byron"
+#
+#Concatenation	+
+#Repetition	*
+#Membership Testing	in (not in)
+#Indexing	[i]
+#Slicing	[i:j]
+#x in sequence
+#a[:] copy whole array
+#print("{} - {}".format(i, user_name[i]))
+#fruits.insert(2, "NEW")
+#del fruits[1]
+#fruits_tuple = tuple(fruits)
+#apples_price = prices.pop('apples')
+#fruits = prices.keys()
+## dict_keys(['apples', 'oranges', 'bananas'])
+#prices["new_key"]="new value"
+#prices.values()
+# An unordered collection of unique and immutable objects.
+#Note that the set itself is a mutable object.
+#A Set can not contain duplicate items! Dictionaries can. 
+#set = {value1, value2, valueN}
+#union2 = set1.union(set2)
+#intersec2 = set1.intersection(set2)
+#dif1 = set1.difference(set2)
+#sym_dif = set1.symmetric_difference(set2)
+
+
 prices_list=[2.50, 2.40, 3.50, 2.4]
 
 prices_dict = {
