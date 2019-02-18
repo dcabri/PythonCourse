@@ -41,6 +41,9 @@ print(sum)
 
 # tupple:
 point3d = (4, 0, 3)
+p2=[1,2]
+print("=========================")
+print(p2[-1])
 # point3d[1]=1 cannot be done, 'tuple' object does not support item assignment
 
 print (type (matrix) )
